@@ -22,6 +22,7 @@ class Database:
         "postgresql": "databases.backends.postgres:PostgresBackend",
         "mysql": "databases.backends.mysql:MySQLBackend",
         "sqlite": "databases.backends.sqlite:SQLiteBackend",
+        "postgres": "databases.backends.postgres:PostgresBackend",
     }
 
     def __init__(
